@@ -56,22 +56,29 @@ démonstration pratique des concepts théoriques vus en cours.
 
 #                    3. STRUCTURE DU PROJET                         #
 
-├── src/
-│   ├── main.c              # Programme principal avec menu interactif
-│   ├── tableaux/           # Algorithmes sur les tableaux
-│   │   ├── verification_tri.c
-│   │   ├── median.c
-│   │   ├── inversion.c
-│   │   ├── recherche.c
-│   │   └── multiplication.c
-│   └── matrices/           # Algorithmes sur les matrices
-│       ├── operations.c
-│       └── operations.h
-├── tests/                  # Tests unitaires
-│   ├── test_general.c      # Tests complets
-│   └── autres tests...
-├── bin/                    # Fichiers exécutables (créés après compilation)
-└── README.md
+L2-INF231-Groupe-ProjetStructures/
+│
+├── 📄 README.md                         # Documentation principale
+│
+├── 📁 docs/                             # Documentation
+│   ├── 📁 rapports/                    # Rapports formels
+│   ├── 📄 [Matricule]PrenomNOM.md      # Cahiers de suivi individuels
+│   └── 📄 guide_utilisation.md         # Guide utilisateur détaillé
+│
+├── 📁 src/                              # Code source
+│   ├── 📁 matrices/                    # Opérations sur matrices (Exo 1,2,9)
+│   ├── 📁 tableaux/                    # Algorithmes sur tableaux (Exo 3-8)
+│   └── 📄 main.c                       # Programme principal avec menu
+│
+├── 📁 tests/                            # Tests unitaires
+│   ├── 📄 test_general.c               # Tests complets de l'application
+│   ├── 📄 test_matrices.c              # Tests spécifiques matrices
+│   └── 📄 test_tableaux.c              # Tests spécifiques tableaux
+│
+└── 📁 presentations/                   # Supports de présentation
+    ├── 📄 soutenance.pptx              # Présentation PowerPoint
+    └── 📄 notes_oral.md               # Notes pour la soutenance
+
 
 
 #                    4. PRÉSENTATION DES 9 EXERCICES                         #
