@@ -14,11 +14,9 @@ Ce projet implémente en **langage C** une série d'algorithmes fondamentaux cou
 | Rôle | Membre | Matricule | Tâches principales |
 |------|--------|-----------|-------------------|
 | **Chef de projet** | MATAGNE DASSE Preslie Chanel | 23V2294 | Coordination, intégration | Exercices 5 & 6 |
-| **Développeur** | HENDRIX MENOUNGA LEGRAND | 24G2579 | Exercices 1 |
-| **Développeur** | [Prénom Nom] | [Matricule] | Exercices 2 |
-| **Développeur** | [Prénom Nom] | [Matricule] | Exercices 3 & 4 |
+| **Développeur** | HENDRIX MENOUNGA LEGRAND | 24G2579 | Exercices 1, 2 & 9 |
+| **Développeur** | OUMAROU MVONGO Caleb Israel | 24G2771 | Exercices 3 & 4 |
 | **Développeur** | [Prénom Nom] | [Matricule] | Exercices 7 & 8 |
-| **Développeur** | HENDRIX MENOUNGA LEGRAND | 24G2579 | Exercice 9 |
 | **Intégrateur** | [Prénom Nom] | [Matricule] | Assemblage| Main program, tests |
 
 ## 📋 Fonctionnalités Implémentées
@@ -38,22 +36,25 @@ Ce projet implémente en **langage C** une série d'algorithmes fondamentaux cou
 - **Exercice 7 :** Inverser un tableau
 - **Exercice 8 :** Produit vectoriel
 
-## 🗂️ Structure du Projet
-L2-INF231-Groupe-ProjetStructures/
-├── 📄 README.md # Ce fichier
-├── 📁 docs/ # Documentation
-│ ├── 📁 rapports/ # Rapports formels
-│ ├── 📄 [Matricule]PrenomNOM.md # Cahiers de suivi individuels
-│ └── 📄 guide_utilisation.md # Guide utilisateur
-├── 📁 src/ # Code source
-│ ├── 📁 matrices/ # Opérations sur matrices
-│ ├── 📁 tableaux/ # Algorithmes sur tableaux ✅
-│ └── 📄 main.c # Programme principal
-├── 📁 tests/ # Tests unitaires
-│ ├── 📄 test_general.c # Tests complets
-│ ├── 📄 test_matrices.c # Tests matrices
-│ └── 📄 test_tableaux.c # Tests tableaux ✅
-└── 📁 presentations/ # Supports de présentation
+## Structure du projet
+```
+├── src/
+│   ├── main.c              # Programme principal avec menu interactif
+│   ├── tableaux/           # Algorithmes sur les tableaux
+│   │   ├── verification_tri.c
+│   │   ├── median.c
+│   │   ├── inversion.c
+│   │   ├── recherche.c
+│   │   └── multiplication.c
+│   └── matrices/           # Algorithmes sur les matrices
+│       ├── operations.c
+│       └── operations.h
+├── tests/                  # Tests unitaires
+│   ├── test_general.c      # Tests complets
+│   └── autres tests...
+├── bin/                    # Fichiers exécutables (créés après compilation)
+└── README.md
+```
 
 ## 📌 Description
 - **docs/** : Contient la documentation, rapports et guides.  
@@ -82,16 +83,16 @@ gcc -o projet src/main.c src/matrices/*.c src/tableaux/*.c
 Le programme propose un menu interactif permettant d'accéder à toutes les fonctionnalités :
 
 === PROJET SDD2 - ALGORITHMES FONDAMENTAUX ===
-1. Somme de matrices
-2. Produit de matrices
-3. Recherche séquentielle
-4. Multiplication a × b
+1. Somme de matrices✅
+2. Produit de matrices✅
+3. Recherche séquentielle✅
+4. Multiplication a × b✅
 5. Vérifier si tableau trié ✅
 6. Calculer le médian ✅
-7. Inverser un tableau
-8. Produit vectoriel
-9. Produit vecteur × matrices
-0. Quitter
+7. Inverser un tableau✅
+8. Produit vectoriel✅
+9. Produit vecteur × matrices✅
+0. Quitter✅
 
 ## 🧪 Tests et Validation
 Chaque algorithme est validé par des tests unitaires :
@@ -108,8 +109,7 @@ gcc -o test_tableaux tests/test_tableaux.c src/tableaux/*.c
 
 | Module | Statut | Responsable | Dernière mise à jour |
 |--------|--------|-------------|---------------------|
-| **Exercices 5-6** | ✅ Terminé | Preslie Chanel | 23/09/2025 |
-| **Exercices 1-2** | 🔄 En cours | Emrys | [Date] |
+| **Exercices 5-6** | ✅ Terminé | Preslie Chanel | 24/09/2025|
 | **Exercices 3-4** | 🔄 En cours |Caleb | [Date] |
 | **Exercices 7-8** | ⏳ En attente | Yvo | [Date] |
 | **Exercice 9** | ⏳ En attente | Hendrix | [Date] |

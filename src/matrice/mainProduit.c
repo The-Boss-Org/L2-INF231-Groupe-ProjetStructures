@@ -1,9 +1,0 @@
-#include <stdio.h>
-#include "matvec.h"
-
-int main() {
-    // Appel de la fonction de test
-    matvec();
-
-    return 0;
-}

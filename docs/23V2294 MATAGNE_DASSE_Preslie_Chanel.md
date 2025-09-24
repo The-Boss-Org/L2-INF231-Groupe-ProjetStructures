@@ -2,7 +2,7 @@
 
 **Auteur** : Preslie Chanel MATAGNE DASSE  
 **Groupe** : L2-INF231  
-**Date de début** : 24/09/2024  
+**Date de début** : 22/09/2024  
 **Dernière mise à jour** : 24/09/2024
 
 ## Table des matières

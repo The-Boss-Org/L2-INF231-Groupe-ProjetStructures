@@ -3,7 +3,7 @@
  * @author Preslie Chanel MATAGNE DASSE
  * @brief Fonctions pour vérifier si un tableau est trié
  * @version 0.1
- * @date 2024-03-01
+ * @date 2023-03-01
  * 
  * @copyright Copyright (c) 2024
  * 
