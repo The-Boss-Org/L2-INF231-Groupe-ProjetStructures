@@ -1,6 +1,7 @@
 # Rapport de Projet - Structures de Données
 
-**Auteur** : MATAGNE DASSE Preslie Chanel 
+**Auteur** : MATAGNE DASSE Preslie Chanel
+**Matricule** : 23V2294
 **Groupe** : L2-INF231  
 **Date de début** : 22/09/2024  
 **Dernière mise à jour** : 24/09/2024
