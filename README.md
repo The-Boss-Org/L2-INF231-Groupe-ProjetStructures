@@ -54,6 +54,11 @@ L2-INF231-Groupe-ProjetStructures/
 │ └── 📄 test_tableaux.c # Tests tableaux ✅
 └── 📁 presentations/ # Supports de présentation
 
+## 📌 Description
+- **docs/** : Contient la documentation, rapports et guides.  
+- **src/** : Contient le code source organisé par modules.  
+- **tests/** : Contient les tests unitaires pour valider les fonctionnalités.  
+- **presentations/** : Contient les supports de présentation liés au projet.  
 
 ## ⚡ Installation et Utilisation
 
