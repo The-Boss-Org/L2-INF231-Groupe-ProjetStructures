@@ -2,7 +2,7 @@
 ## Algorithmes Fondamentaux - Assemblage Final
 
 **Date :** 24 septembre 2025
-**Auteurs :** Équipe SDD2 - Preslie Chanel MATAGNE DASSE
+**Auteur :** Équipe SDD2 - FOFOU FOKOU Steddy Ronel
 **Version :** 1.0
 
 ---
