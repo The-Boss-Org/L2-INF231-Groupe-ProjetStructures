@@ -1,7 +1,7 @@
 # Projet Structures de Données II - Algorithmes Fondamentaux
 
 **📅 Date de rendu :** Jeudi 25 Septembre 2025  
-**👨‍🏫 Enseignant :** PR Metatagia  
+**👨‍🏫 Enseignant :** Pr Melatagia Paulin
 **📚 Cours :** INF231 EC2 - Structures de Données II  
 **👥 Groupe :** Boss
 
@@ -16,8 +16,8 @@ Ce projet implémente en **langage C** une série d'algorithmes fondamentaux cou
 | **Chef de projet** | MATAGNE DASSE Preslie Chanel | 23V2294 | Coordination, intégration | Exercices 5 & 6 |
 | **Développeur** | HENDRIX MENOUNGA LEGRAND | 24G2579 | Exercices 1, 2 & 9 |
 | **Développeur** | OUMAROU MVONGO Caleb Israel | 24G2771 | Exercices 3 & 4 |
-| **Développeur** | [Prénom Nom] | [Matricule] | Exercices 7 & 8 |
-| **Intégrateur** | [Prénom Nom] | [Matricule] | Assemblage| Main program, tests |
+| **Développeur** | VAMI NEGUEM Yvo Freed | 24F2658 | Exercices 7 & 8 |
+| **Intégrateur** | FOKOU FOFOU Steddy Ronel | 24G2255 | Assemblage| Main program, tests |
 
 ## 📋 Fonctionnalités Implémentées
 
@@ -109,11 +109,11 @@ gcc -o test_tableaux tests/test_tableaux.c src/tableaux/*.c
 
 | Module | Statut | Responsable | Dernière mise à jour |
 |--------|--------|-------------|---------------------|
-| **Exercices 5-6** | ✅ Terminé | Preslie Chanel | 24/09/2025|
-| **Exercices 3-4** | 🔄 En cours |Caleb | [Date] |
-| **Exercices 7-8** | ⏳ En attente | Yvo | [Date] |
-| **Exercice 9** | ⏳ En attente | Hendrix | [Date] |
-| **Intégration** | ⏳ En attente | Ronel | [Date] |
+| **Exercices 5-6 - Présentation** | ✅ Terminé | Preslie Chanel | 24/09/2025|
+| **Exercices 3-4** | ✅ Terminé |Caleb | 24/09/2025 |
+| **Exercices 7-8** | ✅ Terminé | Yvo | 24/09/2025 |
+| **Exercice 9** | ✅ Terminé | Hendrix | 24/09/2025 |
+| **Intégration** | ✅ Terminé | Ronel | 24/09/2025 |
 
 # 🔧 Développement
 
