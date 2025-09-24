@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "somme_matrices.h"
+#include "SOMME_MATRICES.h"
 
 // Fonction pour demander les dimensions d'une matrice
 void demanderDimensions(int *lignes, int *colonnes) {
@@ -9,14 +9,14 @@ void demanderDimensions(int *lignes, int *colonnes) {
         scanf("%d %d", lignes, colonnes);
 
         if (*lignes < 1 || *lignes > MAX_DIM || *colonnes < 1 || *colonnes > MAX_DIM) {
-            printf("Dimensions non valides. Veuillez réessayer.\n");
+            printf("Dimensions non valides. Veuillez rÃ©essayer.\n");
         }
     } while (*lignes < 1 || *lignes > MAX_DIM || *colonnes < 1 || *colonnes > MAX_DIM);
 }
 
 // Fonction pour saisir une matrice
 void saisirMatrice(int lignes, int colonnes, int **matrice, const char *nom) {
-    printf("Entrez les éléments de la matrice %s (%d x %d) :\n", nom, lignes, colonnes);
+    printf("Entrez les Ã©lÃ©ments de la matrice %s (%d x %d) :\n", nom, lignes, colonnes);
     for (int i = 0; i < lignes; i++) {
         for (int j = 0; j < colonnes; j++) {
             printf("Element [%d][%d] : ", i + 1, j + 1);
@@ -52,7 +52,7 @@ void sommeMatrices(void) {
     // Dimensions des matrices
     demanderDimensions(&lignes, &colonnes);
 
-    // Allocation mémoire
+    // Allocation mÃ©moire
     A = (int **)malloc(lignes * sizeof(int *));
     B = (int **)malloc(lignes * sizeof(int *));
     C = (int **)malloc(lignes * sizeof(int *));
@@ -73,7 +73,7 @@ void sommeMatrices(void) {
     printf("Somme des matrices :\n");
     afficherMatrice(lignes, colonnes, C);
 
-    // Libération mémoire
+    // LibÃ©ration mÃ©moire
     for (int i = 0; i < lignes; i++) {
         free(A[i]);
         free(B[i]);
