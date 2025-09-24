@@ -14,7 +14,8 @@ Ce projet implémente en **langage C** une série d'algorithmes fondamentaux cou
 | Rôle | Membre | Matricule | Tâches principales |
 |------|--------|-----------|-------------------|
 | **Chef de projet** | MATAGNE DASSE Preslie Chanel | 23V2294 | Coordination, intégration | Exercices 5 & 6 |
-| **Développeur** | [Ton Prénom Nom] | [Ton Matricule] | Exercices 1 & 2 |
+| **Développeur** | HENDRIX MENOUNGA LEGRAND | 24G2579 | Exercices 1 |
+| **Développeur** | [Prénom Nom] | [Matricule] | Exercices 2 |
 | **Développeur** | [Prénom Nom] | [Matricule] | Exercices 3 & 4 |
 | **Développeur** | [Prénom Nom] | [Matricule] | Exercices 7 & 8 |
 | **Développeur** | HENDRIX MENOUNGA LEGRAND | 24G2579 | Exercice 9 |
@@ -23,9 +24,9 @@ Ce projet implémente en **langage C** une série d'algorithmes fondamentaux cou
 ## 📋 Fonctionnalités Implémentées
 
 ### 🔢 Opérations Matricielles
-- **Exercice 1 :** Somme de matrices
+- **Exercice 1 :** Somme de matrices ✅
 - **Exercice 2 :** Produit de matrices
-- **Exercice 9 :** Produit vecteur × matrices
+- **Exercice 9 :** Produit vecteur × matrices ✅
 
 ### 🔍 Algorithmes de Recherche & Analyse
 - **Exercice 3 :** Recherche séquentielle dans un tableau
