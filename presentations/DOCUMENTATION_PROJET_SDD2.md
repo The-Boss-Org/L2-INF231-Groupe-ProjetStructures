@@ -4,9 +4,12 @@
 ###############################################################################
 
 📅 DATE DE RENDU: Mercredi 24 septembre 2025
+
 👨‍🏫 ENSEIGNANT: Pr Melatagia Paulin
+
 📚 COURS: INF231 EC2 - Structures de Données II
-👥 GROUPE: Groupe 1
+
+**Auteur :** MATAGNE DASSE Preslie Chanel
 
 
 #                               TABLE DES MATIÈRES                           #
