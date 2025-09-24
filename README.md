@@ -152,6 +152,3 @@ Problèmes techniques : Ouvrir une issue GitHub
 Projet académique - Université de Yaoundé I - Année 2025
 
 ⭐ N'oubliez pas de mettre à jour vos cahiers de suivi régulièrement !
-
-
-## 🗂️ Structure du Projet
