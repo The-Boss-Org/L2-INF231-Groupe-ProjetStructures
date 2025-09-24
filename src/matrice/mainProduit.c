@@ -3,7 +3,7 @@
 
 int main() {
     // Appel de la fonction de test
-    test_matvec();
+    matvec();
 
     return 0;
 }
