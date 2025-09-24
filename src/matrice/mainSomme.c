@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "somme_matrices.h"
+#include "SOMME_MATRICES.h"
 
 int main(void) {
     printf("=== Test de l'addition de deux matrices ===\n");
