@@ -3,6 +3,6 @@
 
 //Prototype de la fonction
 
-void test_matvec();
+void matvec();
 
 #endif // MATVEC_H
