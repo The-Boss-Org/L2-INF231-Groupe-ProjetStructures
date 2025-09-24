@@ -1,8 +1,11 @@
 # Projet Structures de Données II - Algorithmes Fondamentaux
 
-**📅 Date de rendu :** Mercredi 24 Septembre 2025  
+**📅 Date de rendu :** Mercredi 24 Septembre 2025 
+
 **👨‍🏫 Enseignant :** Pr Melatagia Paulin
+
 **📚 Cours :** INF231 EC2 - Structures de Données II  
+
 **👥 Groupe :** Boss
 
 ## 🎯 Présentation du Projet
