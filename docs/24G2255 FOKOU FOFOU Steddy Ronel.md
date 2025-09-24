@@ -3,7 +3,6 @@
 
 **Date :** 24 septembre 2025
 **Auteur :** Équipe SDD2 - FOFOU FOKOU Steddy Ronel
-**Version :** 1.0
 
 ---
 
