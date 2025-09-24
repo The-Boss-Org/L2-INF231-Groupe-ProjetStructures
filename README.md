@@ -17,7 +17,7 @@ Ce projet implémente en **langage C** une série d'algorithmes fondamentaux cou
 | **Développeur** | [Ton Prénom Nom] | [Ton Matricule] | Exercices 1 & 2 |
 | **Développeur** | [Prénom Nom] | [Matricule] | Exercices 3 & 4 |
 | **Développeur** | [Prénom Nom] | [Matricule] | Exercices 7 & 8 |
-| **Développeur** | [Prénom Nom] | [Matricule] | Exercice 9 |
+| **Développeur** | HENDRIX MENOUNGA LEGRAND | 24G2579 | Exercice 9 |
 | **Intégrateur** | [Prénom Nom] | [Matricule] | Assemblage| Main program, tests |
 
 ## 📋 Fonctionnalités Implémentées
