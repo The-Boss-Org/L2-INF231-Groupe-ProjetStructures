@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "matvec.h"
 
 int main() {
