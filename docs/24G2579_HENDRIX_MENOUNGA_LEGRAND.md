@@ -35,25 +35,43 @@ l’utilisateur.
 
 II.	PRODUIT D’UNE MATRICE ET D’UN VECTEUR
 
-Pour calculer le produit d’une matrice A par un vecteur x, j’ai utilisé la formule mathématique classique :
+### 1. **Définir le problème mathématique**
+
+Le but est de calculer le produit d’une matrice carrée `A` de dimension `n × n` par un vecteur colonne `x` de taille `n`.
+La formule générale est :
 
 Yi = ∑(j=1)Aij.xj
 
-Où A est une matrice de dimension n×m, x est un vecteur de dimension n, et le résultat Y est un vecteur de dimension m. Concrètement, chaque composante Yi du résultat correspond au produit scalaire de la ligne iii de la matrice avec le vecteur.
+Où A est une matrice de dimension n×m, x est un vecteur de dimension n, et le résultat Y est un vecteur de dimension m. Concrètement, chaque composante Yi du résultat correspond au produit scalaire de la ligne i de la matrice avec le vecteur.
 ________________________________________
 
 Méthode de calcul en C
 
-•	Types de données utilisés :
+### 1.	**Types de données utilisés** :
 J’ai utilisé le type int pour représenter les éléments de la matrice et du vecteur, car ce sont des nombres entiers dans notre exemple. Si on devait travailler avec des réels (par exemple en calcul scientifique), on pourrait utiliser float ou double.
 
-•	Parcours de la matrice :
+### 2.	**Parcours de la matrice** :
 
 J’ai utilisé deux boucles for :
 
 o	une boucle externe pour parcourir les lignes de la matrice,
 o	une boucle interne pour faire la somme des produits Aij×xj .
 
-•	Stockage du résultat :
+### 3. **Étapes du programme**
 
-Le vecteur résultat est passé en paramètre à la fonction et rempli directement dans la boucle.
+1. **Lire la dimension `n`** saisie par l’utilisateur.
+2. **Allouer dynamiquement la mémoire** pour la matrice `A` et les vecteurs `x` et `y`.
+3. **Demander à l’utilisateur de remplir la matrice et le vecteur** via `scanf`.
+4. **Appliquer la formule mathématique** :
+
+   * pour chaque ligne `i` de la matrice, calculer la combinaison linéaire avec les coefficients du vecteur.
+5. **Afficher le vecteur résultat `y`**.
+6. **Libérer toute la mémoire utilisée** avec `free` pour éviter les fuites mémoire.
+
+---
+
+### 4. **Avantages de cette approche**
+
+* **Flexibilité** : fonctionne pour des matrices de n’importe quelle taille.
+* **Clarté** : la séparation des étapes (lecture, calcul, affichage, libération) rend le code facile à comprendre.
+* **Bonne gestion mémoire** : tout ce qui est alloué dynamiquement est libéré à la fin.

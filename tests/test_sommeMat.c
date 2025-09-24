@@ -1,8 +1,8 @@
 #include <stdio.h>
-#include "somme_matrices.h"
+#include "../src/matrice/SOMME_MATRICES.h"
 
 int main(void) {
     printf("=== Test de l'addition de deux matrices ===\n");
-    sommeMatrices(); // appelle la fonction principale de ton module
+    sommeMatrices(); // appelle la fonction principale du module
     return 0;
 }

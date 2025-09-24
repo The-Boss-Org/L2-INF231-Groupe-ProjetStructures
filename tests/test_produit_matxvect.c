@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "matvec.h"
+#include "../src/matrice/matvec.h"
 
 int main(void) {
     printf("=== Test du produit matrice * vecteur ===\n");
