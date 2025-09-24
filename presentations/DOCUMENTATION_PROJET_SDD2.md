@@ -41,55 +41,36 @@ démonstration pratique des concepts théoriques vus en cours.
 #                      2. ÉQUIPE DE DÉVELOPPEMENT                            #
 ###############################################################################
 
-+------------------+------------------+------------+---------------------------+
-|       Rôle       |      Membre      | Matricule  |     Tâches principales    |
-+------------------+------------------+------------+---------------------------+
-| Chef de projet   | Preslie Chanel   | 23V2294   | Coordination, intégration |
-| Développeur      | Preslie Chanel   | 23V2294   | Exercices 1, 2, 9        |
-| Développeur      | Caleb Israel     | 24G2771   | Exercices 3 & 4          |
-| Développeur      | Yvo Freed        | 24F2658   | Exercices 5 & 6          |
-| Développeur      | Hendrix Legrand  | 24G2579   | Exercices 7 & 8          |
-| Intégrateur      | Steddy Ronel     | 24G2255   | Main program, tests      |
-+------------------+------------------+------------+---------------------------+
+| Rôle              | Membre          | Matricule | Tâches principales                |
+|-------------------|----------------|-----------|-----------------------------------|
+| **Chef de projet** | Preslie Chanel | 23V2294   | Coordination, intégration          |
+| **Développeur**    | Preslie Chanel | 23V2294   | Exercices 5, 6                   |
+| **Développeur**    | Caleb Israel   | 24G2771   | Exercices 3 & 4                    |
+| **Développeur**    | Yvo Freed      | 24F2658   | Exercices 5 & 6                    |
+| **Développeur**    | Hendrix Legrand| 24G2579   | Exercices 1, 2 & 9                   |
+| **Intégrateur**    | Steddy Ronel   | 24G2255   | Programme principal, tests         |
 
 ###############################################################################
-#                        3. STRUCTURE DU PROJET                              #
+#                    3. STRUCTURE DU PROJET                         #
 ###############################################################################
 
 L2-INF231-Groupe-ProjetStructures/
-│
-├── 📄 README.md                         # Documentation principale
-│
-├── 📁 docs/                             # Documentation
-│   ├── 📁 rapports/                    # Rapports formels
-│   ├── 📄 [Matricule]PrenomNOM.md      # Cahiers de suivi individuels
-│   └── 📄 guide_utilisation.md         # Guide utilisateur détaillé
-│
-├── 📁 src/                              # Code source
-│   ├── 📁 matrices/                    # Opérations sur matrices (Exo 1,2,9)
-│   │   ├── operations.h               # Déclarations des fonctions
-│   │   └── operations.c               # Implémentations des algorithmes
-│   ├── 📁 tableaux/                    # Algorithmes sur tableaux (Exo 3-8)
-│   │   ├── verification_tri.h         # Déclarations tri
-│   │   ├── verification_tri.c         # Implémentation tri
-│   │   ├── median.h                   # Déclarations médiane
-│   │   ├── median.c                   # Implémentation médiane
-│   │   ├── inversion.h                # Déclarations inversion
-│   │   ├── inversion.c                # Implémentation inversion
-│   │   ├── recherche.h                # Déclarations recherche
-│   │   ├── recherche.c                # Implémentation recherche
-│   │   ├── multiplication.h           # Déclarations multiplication
-│   │   └── multiplication.c           # Implémentation multiplication
-│   └── 📄 main.c                       # Programme principal avec menu
-│
-├── 📁 tests/                            # Tests unitaires
-│   ├── 📄 test_general.c               # Tests complets de l'application
-│   ├── 📄 test_exercices_1_2_9.c      # Tests spécifiques matrices
-│   └── 📄 test_tableaux.c              # Tests spécifiques tableaux
-│
-└── 📁 presentations/                   # Supports de présentation
-    ├── 📄 soutenance.pptx              # Présentation PowerPoint
-    └── 📄 notes_oral.md               # Notes pour la soutenance
+├── 📄 README.md # Documentation principale
+├── 📁 docs/ # Documentation
+│ ├── 📁 rapports/ # Rapports formels
+│ ├── 📄 [Matricule]PrenomNOM.md# Cahiers de suivi individuels
+│ └── 📄 guide_utilisation.md # Guide utilisateur
+├── 📁 src/ # Code source
+│ ├── 📁 matrices/ # Opérations sur matrices (Exo 1,2,9)
+│ ├── 📁 tableaux/ # Algorithmes sur tableaux (Exo 3-8)
+│ └── 📄 main.c # Programme principal
+├── 📁 tests/ # Tests unitaires
+│ ├── 📄 test_general.c # Tests complets
+│ ├── 📄 test_exercices_1_2_9.c # Tests matrices
+│ └── 📄 test_tableaux.c # Tests tableaux
+└── 📁 presentations/ # Présentations
+├── 📄 soutenance.pptx # Support de soutenance
+└── 📄 notes_oral.md # Notes d’oral
 
 ###############################################################################
 #                    4. PRÉSENTATION DES 9 EXERCICES                         #
