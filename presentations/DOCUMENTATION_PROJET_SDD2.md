@@ -8,9 +8,9 @@
 📚 COURS: INF231 EC2 - Structures de Données II
 👥 GROUPE: Groupe 1
 
-###############################################################################
+
 #                               TABLE DES MATIÈRES                           #
-###############################################################################
+
 
 1. PRÉSENTATION GÉNÉRALE
 2. ÉQUIPE DE DÉVELOPPEMENT
@@ -23,9 +23,9 @@
 9. CAHIERS DE SUIVI
 10. SUPPORT ET CONTACTS
 
-###############################################################################
+
 #                        1. PRÉSENTATION GÉNÉRALE                            #
-###############################################################################
+
 
 Ce projet implémente en langage C une série d'algorithmes fondamentaux couvrant:
 
@@ -37,9 +37,9 @@ Ce projet implémente en langage C une série d'algorithmes fondamentaux couvran
 Développé dans le cadre du cours de Structures de Données II, ce projet sert de
 démonstration pratique des concepts théoriques vus en cours.
 
-###############################################################################
+
 #                      2. ÉQUIPE DE DÉVELOPPEMENT                            #
-###############################################################################
+
 
 | Rôle              | Membre          | Matricule | Tâches principales                |
 |-------------------|----------------|-----------|-----------------------------------|
@@ -50,9 +50,9 @@ démonstration pratique des concepts théoriques vus en cours.
 | **Développeur**    | Hendrix Legrand| 24G2579   | Exercices 1, 2 & 9                   |
 | **Intégrateur**    | Steddy Ronel   | 24G2255   | Programme principal, tests         |
 
-###############################################################################
+
 #                    3. STRUCTURE DU PROJET                         #
-###############################################################################
+
 
 L2-INF231-Groupe-ProjetStructures/
 ├── 📄 README.md # Documentation principale
@@ -72,9 +72,8 @@ L2-INF231-Groupe-ProjetStructures/
 ├── 📄 soutenance.pptx # Support de soutenance
 └── 📄 notes_oral.md # Notes d’oral
 
-###############################################################################
+
 #                    4. PRÉSENTATION DES 9 EXERCICES                         #
-###############################################################################
 
 
 ───────────────────────────────────────────────────────────────────────────────
@@ -218,9 +217,9 @@ Matrice = [1 2 3]
           [7 8 9]
 Résultat = [30, 36, 42]
 
-###############################################################################
+
 #                      5. INSTALLATION ET UTILISATION                        #
-###############################################################################
+
 
 PRÉREQUIS:
 • Compilateur C (GCC recommandé)
@@ -240,9 +239,9 @@ gcc -o bin/main src/main.c src/tableaux/*.c src/matrices/*.c -I src/tableaux -I 
 ./bin/main
 ```
 
-###############################################################################
+
 #                        6. TESTS ET VALIDATION                              #
-###############################################################################
+
 
 ───────────────────────────────────────────────────────────────────────────────
 TESTS EXERCICE 1 - SOMME DE MATRICES
@@ -268,9 +267,9 @@ TESTS EXERCICE 9 - PRODUIT VECTEUR × MATRICE
 
 RÉSULTATS GLOBAUX: 10/10 tests réussis ✅
 
-###############################################################################
+
 #                       7. AVANCEMENT DU PROJET                              #
-###############################################################################
+
 
 📊 ÉTAT D'AVANCEMENT PAR EXERCICE:
 
@@ -287,9 +286,9 @@ RÉSULTATS GLOBAUX: 10/10 tests réussis ✅
 
 📈 AVANCEMENT GLOBAL: 85% terminé
 
-###############################################################################
+
 #                    8. CONVENTIONS DE DÉVELOPPEMENT                         #
-###############################################################################
+
 
 • CODAGE: UTF-8
 • INDENTATION: 4 espaces (pas de tabulations)
@@ -300,9 +299,9 @@ RÉSULTATS GLOBAUX: 10/10 tests réussis ✅
 • LONGUEUR MAX LIGNE: 80 caractères
 • FICHIERS: Un fichier par fonction/fonctionnalité
 
-###############################################################################
+
 #                          9. CAHIERS DE SUIVI                               #
-###############################################################################
+
 
 Chaque membre de l'équipe tient un cahier de suivi individuel dans le dossier
 docs/ avec son matricule et nom. Ces cahiers détaillent:
@@ -313,9 +312,9 @@ docs/ avec son matricule et nom. Ces cahiers détaillent:
 • Contributions au projet global
 • Réflexions sur les concepts appris
 
-###############################################################################
+
 #                       10. SUPPORT ET CONTACTS                              #
-###############################################################################
+
 
 📧 COORDONNÉES DE L'ÉQUIPE:
 • Chef de projet: chanelledasse1@gmail.com
@@ -329,6 +328,6 @@ docs/ avec son matricule et nom. Ces cahiers détaillent:
 • WhatsApp: Groupe de travail SDD2
 • Email: chanelledasse1@gmail.com
 
-###############################################################################
+
 #                          FIN DU DOCUMENT                                   #
 ###############################################################################
